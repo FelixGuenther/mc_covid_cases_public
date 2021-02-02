@@ -79,6 +79,6 @@ supp_fig_2 = ggplot(dat %>% filter(date>=lubridate::ymd("2020-08-01"),
                                    "Spec: 0.997"=1,
                                    "Spec: 0.995"=1), guide=FALSE) +
   guides(fill="none")
-ggsave(supp_fig_2, filename = "../results/figures/supp_fig_2.png", width = 7, height = 6)
+ggsave(supp_fig_2, filename = "../results/figures/supp_fig_2.pdf", width = 7, height = 6)
 
 
